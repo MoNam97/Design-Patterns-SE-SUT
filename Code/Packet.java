@@ -17,7 +17,7 @@ public class Packet implements State {
         return this.state;
     }
 
-    private double calcCost(){
+    public double calcCost(){
         return transportMode.calcCost(weight);
     }
 
